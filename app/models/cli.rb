@@ -178,8 +178,8 @@ class TakeFlight
             puts "Booking Agent: For a grand total of $355. You will be flying first class."
             puts "Booking Agent: Ticket purchase complete at #{@ticket.time}"
         elsif @ticket.seating == 2
-            puts "\nBooking Agent: Enjoy #{@ticket.flight.destination}. Your ticket will be $#{@ticket.price}, plus a $30 booking fee."
-            puts "Booking Agent: For a grand total of $830. You will be flying economy."
+            puts "\nBooking Agent: Enjoy #{@ticket.flight.destination}. Your ticket will be $200, plus a $30 booking fee."
+            puts "Booking Agent: For a grand total of $230. You will be flying economy."
             puts "Booking Agent: Ticket purchase complete at #{@ticket.time}"
           else
             puts "\nBooking Agent: Let's try that again."

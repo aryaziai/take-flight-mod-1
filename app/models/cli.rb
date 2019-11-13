@@ -42,6 +42,7 @@ class TakeFlight
 
 
     def add_customer
+        
         t = Time.now
         if t.strftime('%P') == 'pm'
             puts "\nBooking Agent: Good afternoon! Thanks for waiting.\n"
